@@ -7,9 +7,20 @@ git add *
 
 git commit -m "wrote git readme file"
 
+
+
 版本记录
 git log --pretty=oneline
 或者 git reflog
 #版本回退
 git reset --hard c234
 
+#添加远程仓库，Permission denied (publickey)，需要更新ssh。
+
+git remote add origin git@github.com:shioyim/commond.git
+
+git push -u origin master
+
+
+#删除文件夹参数带r,记得commit
+git rm 文件名
