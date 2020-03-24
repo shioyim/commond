@@ -16,11 +16,10 @@ git log --pretty=oneline
 git reset --hard c234
 
 #添加远程仓库，Permission denied (publickey)，需要更新ssh。
-
 git remote add origin git@github.com:shioyim/commond.git
 
 git push -u origin master
 
 
-#删除文件夹参数带r,记得commit
+#删除文件夹带参数r,记得commit
 git rm 文件名
